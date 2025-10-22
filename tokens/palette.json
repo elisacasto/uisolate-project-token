@@ -220,7 +220,7 @@
         },
         "600": {
           "$type": "color",
-          "$value": "#1a44ff"
+          "$value": "#ffea19"
         },
         "700": {
           "$type": "color",
@@ -228,7 +228,7 @@
         },
         "800": {
           "$type": "color",
-          "$value": "#ffca15"
+          "$value": "#4f09bb"
         },
         "900": {
           "$type": "color",
