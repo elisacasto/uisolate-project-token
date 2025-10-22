@@ -228,7 +228,7 @@
         },
         "800": {
           "$type": "color",
-          "$value": "#1133ca"
+          "$value": "#ffca15"
         },
         "900": {
           "$type": "color",

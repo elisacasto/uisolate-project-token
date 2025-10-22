@@ -34,7 +34,7 @@
         },
         "accent": {
           "$type": "color",
-          "$value": "{color.palette.accent.700}"
+          "$value": "{color.palette.accent.800}"
         },
         "accent-light": {
           "$type": "color",
@@ -77,7 +77,7 @@
         "primary": {
           "default": {
             "$type": "color",
-            "$value": "{color.core.background.accent}"
+            "$value": "{color.palette.accent.800}"
           },
           "hover": {
             "$type": "color",
