@@ -83,7 +83,7 @@
         "default": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{fontFamily.secondary}",
+            "fontFamily": "{fontFamily.primary}",
             "fontWeight": "{fontWeight.light}",
             "lineHeight": "{lineHeight.medium}",
             "fontSize": "{fontSize.90}",
@@ -93,7 +93,7 @@
         "strong": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{fontFamily.secondary}",
+            "fontFamily": "{fontFamily.primary}",
             "fontWeight": "{fontWeight.medium}",
             "lineHeight": "{lineHeight.medium}",
             "fontSize": "{fontSize.90}",
@@ -114,7 +114,7 @@
         "underline": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{fontFamily.secondary}",
+            "fontFamily": "{fontFamily.primary}",
             "fontWeight": "{fontWeight.light}",
             "lineHeight": "{lineHeight.medium}",
             "fontSize": "{fontSize.90}",

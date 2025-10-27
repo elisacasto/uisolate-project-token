@@ -2,215 +2,167 @@
   "hero": {
     "title": {
       "$type": "text",
-      "$value": "Hero Title"
+      "$value": "Learn how to build Design Systems that stay alive"
     },
     "subtitle": {
       "$type": "text",
-      "$value": "Hero Subtitle"
+      "$value": "A practical course for designing, maintaining, and evolving accessible and sustainable UI systems.v"
     },
     "button": {
       "$type": "text",
-      "$value": "Hero Button"
+      "$value": "Reserve my place"
+    },
+    "tag": {
+      "$type": "text",
+      "$value": "Next edition: January 2026 · Limited places available"
     }
   },
   "intro": {
     "title": {
       "$type": "text",
-      "$value": "Intro Title"
+      "$value": "Designing a system is much more than just creating components."
     },
     "subtitle": {
       "p1": {
         "$type": "text",
-        "$value": "Intro paragraph 1"
+        "$value": "A Design System is a shared language that brings together design, code, and people. In this course, you will learn how to create one from scratch: tokens, foundations, accessibility, and maintenance processes."
       },
       "p2": {
         "$type": "text",
-        "$value": "Intro paragraph 2"
+        "$value": "This is not theory. You will build a living, scalable, and measurable system, with conscious decisions and real methodologies used in product teams."
       }
     },
     "button": {
       "primary": {
         "$type": "text",
-        "$value": "Intro button primary"
+        "$value": "See agenda"
       },
       "secondary": {
         "$type": "text",
-        "$value": "Intro button secondary"
+        "$value": "Download course guide"
       }
     }
   },
   "logos": {
     "title": {
       "$type": "text",
-      "$value": "Logos Title"
+      "$value": "Principles applied in real equipment"
     }
   },
   "sessions": {
     "title": {
       "$type": "text",
-      "$value": "Sessions title"
+      "$value": "What you will learn"
     },
     "tag": {
       "one": {
         "$type": "text",
-        "$value": "Sessions tag one"
+        "$value": "System fundamentals"
       },
       "two": {
         "$type": "text",
-        "$value": "Sessions tag two"
+        "$value": "Design tokens"
       },
       "three": {
         "$type": "text",
-        "$value": "Sessions tag three"
+        "$value": "Scalability and maintenance"
       },
       "four": {
         "$type": "text",
-        "$value": "Sessions tag four"
+        "$value": "Accessibility from the system"
       },
       "five": {
         "$type": "text",
-        "$value": "Sessions tag five"
+        "$value": "Living documentation"
+      },
+      "six": {
+        "$type": "text",
+        "$value": "Management and development"
       }
     },
     "card": {
       "one": {
         "caption": {
           "$type": "text",
-          "$value": "Card caption one"
+          "$value": "Build the foundation before the chaos"
         },
         "title": {
           "$type": "text",
-          "$value": "Card title one"
+          "$value": "System fundamentals"
         },
         "description": {
           "$type": "text",
-          "$value": "Card description one"
+          "$value": "In this module, you will understand how to define the intent behind the system: what problems it solves, how it is governed, and what principles underpin it. You will see how to create a solid structure that supports scalability, consistency, and frictionless collaboration."
         }
       },
       "two": {
         "caption": {
           "$type": "text",
-          "$value": "Card caption two"
+          "$value": "The invisible layer that gives everything coherence"
         },
         "title": {
           "$type": "text",
-          "$value": "Card title two"
+          "$value": "Design tokens"
         },
         "description": {
           "$type": "text",
-          "$value": "Card description two"
+          "$value": "Aprenderás a crear, nombrar y organizar tokens de diseño para conectar Figma y código de forma robusta. Profundizaremos en jerarquía, tipología, nomenclatura, sincronización y cómo mantenerlos sin deuda técnica. También veremos estrategias de versionado y herramientas reales de gestión."
         }
       },
       "three": {
         "caption": {
           "$type": "text",
-          "$value": "Card caption three"
+          "$value": "Systems that don't break when they grow"
         },
         "title": {
           "$type": "text",
-          "$value": "Card title three"
+          "$value": "Scalability and maintenance"
         },
         "description": {
           "$type": "text",
-          "$value": "Card description three"
+          "$value": "Here you will discover how to plan its evolution: how to update without losing consistency, manage adoption in large teams, and maintain control over versions. We will discuss debt tracking, ownership, and signs of when to escalate (and when not to)."
         }
       },
       "four": {
         "caption": {
           "$type": "text",
-          "$value": "Card caption four"
+          "$value": "Designing for everyone is part of the system, not an add-on."
         },
         "title": {
           "$type": "text",
-          "$value": "Card title four"
+          "$value": "Accessibility from the system"
         },
         "description": {
           "$type": "text",
-          "$value": "Card description four"
+          "$value": "You will learn how to integrate accessibility from the ground up: contrast, focus states, keyboard navigation, ARIA roles, visual and auditory feedback. But also cognitive accessibility: clarity, readability, mental load reduction. It is not a checklist, it is a quality standard."
         }
       },
       "five": {
         "caption": {
           "$type": "text",
-          "$value": "Card caption five"
+          "$value": "Explain less, show more."
         },
         "title": {
           "$type": "text",
-          "$value": "Card title five"
+          "$value": "Living documentation"
         },
         "description": {
           "$type": "text",
-          "$value": "Card description five"
+          "$value": "You will learn how to document in a way that people will actually use the system. Structure, tone, visual language, and tools—from Figma to doc sites. How to create examples that teach themselves and document the “why,” not just the “how.”"
         }
       },
       "six": {
         "caption": {
           "$type": "text",
-          "$value": "Card caption six"
+          "$value": "The system as a product in itself"
         },
         "title": {
           "$type": "text",
-          "$value": "Card title six"
+          "$value": "Management and development"
         },
         "description": {
           "$type": "text",
-          "$value": "Card description six"
-        }
-      },
-      "seven": {
-        "caption": {
-          "$type": "text",
-          "$value": "Card caption seven"
-        },
-        "title": {
-          "$type": "text",
-          "$value": "Card title seven"
-        },
-        "description": {
-          "$type": "text",
-          "$value": "Card description seven"
-        }
-      },
-      "eight": {
-        "caption": {
-          "$type": "text",
-          "$value": "Card caption eight"
-        },
-        "title": {
-          "$type": "text",
-          "$value": "Card title eight"
-        },
-        "description": {
-          "$type": "text",
-          "$value": "Card description eight"
-        }
-      },
-      "nine": {
-        "caption": {
-          "$type": "text",
-          "$value": "Card caption nine"
-        },
-        "title": {
-          "$type": "text",
-          "$value": "Card title nine"
-        },
-        "description": {
-          "$type": "text",
-          "$value": "Card description nine"
-        }
-      },
-      "ten": {
-        "caption": {
-          "$type": "text",
-          "$value": "Card caption ten"
-        },
-        "title": {
-          "$type": "text",
-          "$value": "Card title ten"
-        },
-        "description": {
-          "$type": "text",
-          "$value": "Card description ten"
+          "$value": "A good system is maintained like any other product: with metrics, a roadmap, and constant maintenance. You will learn how to organize roles, governance, and contribution processes to maintain quality, even when the team changes."
         }
       }
     }
@@ -219,32 +171,22 @@
     "one": {
       "name": {
         "$type": "text",
-        "$value": "Name one"
+        "$value": "Elisa Casto"
       },
       "position": {
         "$type": "text",
-        "$value": "Position one"
-      }
-    },
-    "two": {
-      "name": {
-        "$type": "text",
-        "$value": "Name two"
-      },
-      "position": {
-        "$type": "text",
-        "$value": "Position two"
+        "$value": "UI systems designer and founder of ui_solate"
       }
     },
     "title": {
       "$type": "text",
-      "$value": "Title teachers"
+      "$value": "Learn from those who apply it daily"
     }
   },
   "pricing": {
     "title": {
       "$type": "text",
-      "$value": "Pricing title"
+      "$value": "Choose your mode"
     },
     "card": {
       "one": {
@@ -254,19 +196,19 @@
         },
         "title": {
           "$type": "text",
-          "$value": "Title card one"
+          "$value": "Team / company"
         },
         "price": {
           "$type": "text",
-          "$value": "Price"
+          "$value": "290€"
         },
         "description": {
           "$type": "text",
-          "$value": "Description card one"
+          "$value": "Formación adaptada para equipos. Solicita una propuesta personalizada."
         },
         "button": {
           "$type": "text",
-          "$value": "Button card one"
+          "$value": "Contact"
         }
       },
       "two": {
@@ -276,23 +218,23 @@
         },
         "title": {
           "$type": "text",
-          "$value": "Title card two"
+          "$value": "Pro mode"
         },
         "price-primary": {
           "$type": "text",
-          "$value": "Price"
+          "$value": "450 €"
         },
         "price-secondary": {
           "$type": "text",
-          "$value": "Price 2"
+          "$value": "390 €"
         },
         "description": {
           "$type": "text",
-          "$value": "Description card two"
+          "$value": "Includes individual mentoring, review of your Design System, and priority access to future updates."
         },
         "button": {
           "$type": "text",
-          "$value": "Button card two"
+          "$value": "Reserve a place"
         }
       },
       "three": {

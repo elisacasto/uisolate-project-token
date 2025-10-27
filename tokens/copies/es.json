@@ -2,215 +2,167 @@
   "hero": {
     "title": {
       "$type": "text",
-      "$value": "Bienvenido mundo!"
+      "$value": "Aprende a construir Design Systems que se mantienen vivos"
     },
     "subtitle": {
       "$type": "text",
-      "$value": "Subtítulo principal"
+      "$value": "Un curso práctico para diseñar, mantener y evolucionar sistemas UI accesibles y sostenibles."
     },
     "button": {
       "$type": "text",
-      "$value": "Botón principal"
+      "$value": "Reservar mi plaza"
+    },
+    "tag": {
+      "$type": "text",
+      "$value": "Próxima edición: Enero 2026 · Plazas limitadas"
     }
   },
   "intro": {
     "title": {
       "$type": "text",
-      "$value": "Título de introducción"
+      "$value": "Diseñar un sistema es mucho más que crear componentes"
     },
     "subtitle": {
       "p1": {
         "$type": "text",
-        "$value": "Párrafo de introducción 1"
+        "$value": "Un Design System es un lenguaje compartido que une diseño, código y personas. En este curso aprenderás a crearlo desde la base: tokens, foundations, accesibilidad y procesos de mantenimiento."
       },
       "p2": {
         "$type": "text",
-        "$value": "Párrafo de introducción 2"
+        "$value": "No es teoría. Construirás un sistema vivo, escalable y medible, con decisiones conscientes y metodologías reales usadas en equipos de producto."
       }
     },
     "button": {
       "primary": {
         "$type": "text",
-        "$value": "Botón primario de introducción"
+        "$value": "Ver temario"
       },
       "secondary": {
         "$type": "text",
-        "$value": "Botón secundario de introducción"
+        "$value": "Descargar guía del curso"
       }
     }
   },
   "logos": {
     "title": {
       "$type": "text",
-      "$value": "Título de logos"
+      "$value": "Principios aplicados en equipos reales"
     }
   },
   "sessions": {
     "title": {
       "$type": "text",
-      "$value": "Título de sesiones"
+      "$value": "Lo que aprenderás"
     },
     "tag": {
       "one": {
         "$type": "text",
-        "$value": "Etiqueta de sesión uno"
+        "$value": "Fundamentos del sistema"
       },
       "two": {
         "$type": "text",
-        "$value": "Etiqueta de sesión dos"
+        "$value": "Tokens de diseño"
       },
       "three": {
         "$type": "text",
-        "$value": "Etiqueta de sesión tres"
+        "$value": "Escalabilidad y mantenimiento"
       },
       "four": {
         "$type": "text",
-        "$value": "Etiqueta de sesión cuatro"
+        "$value": "Accesibilidad desde el sistema"
       },
       "five": {
         "$type": "text",
-        "$value": "Etiqueta de sesión cinco"
+        "$value": "Documentación viva"
+      },
+      "six": {
+        "$type": "text",
+        "$value": "Gestión y evolución"
       }
     },
     "card": {
       "one": {
         "caption": {
           "$type": "text",
-          "$value": "Leyenda de tarjeta uno"
+          "$value": "Construye la base antes del caos"
         },
         "title": {
           "$type": "text",
-          "$value": "Título de tarjeta uno"
+          "$value": "Fundamentos del sistema"
         },
         "description": {
           "$type": "text",
-          "$value": "Descripción de tarjeta uno"
+          "$value": "En este módulo entenderás cómo definir la intención detrás del sistema: qué problemas resuelve, cómo se gobierna y qué principios lo sostienen. Verás cómo crear una estructura sólida que soporte escalabilidad, consistencia y colaboración sin fricción."
         }
       },
       "two": {
         "caption": {
           "$type": "text",
-          "$value": "Leyenda de tarjeta dos"
+          "$value": "La capa invisible que da coherencia a todo"
         },
         "title": {
           "$type": "text",
-          "$value": "Título de tarjeta dos"
+          "$value": "Tokens de diseño"
         },
         "description": {
           "$type": "text",
-          "$value": "Descripción de tarjeta dos"
+          "$value": "Aprenderás a crear, nombrar y organizar tokens de diseño para conectar Figma y código de forma robusta. Profundizaremos en jerarquía, tipología, nomenclatura, sincronización y cómo mantenerlos sin deuda técnica. También veremos estrategias de versionado y herramientas reales de gestión."
         }
       },
       "three": {
         "caption": {
           "$type": "text",
-          "$value": "Leyenda de tarjeta tres"
+          "$value": "Sistemas que no se rompen cuando crecen"
         },
         "title": {
           "$type": "text",
-          "$value": "Título de tarjeta tres"
+          "$value": "Escalabilidad y mantenimiento"
         },
         "description": {
           "$type": "text",
-          "$value": "Descripción de tarjeta tres"
+          "$value": "Aquí descubrirás cómo planificar su evolución: cómo actualizar sin perder consistencia, gestionar la adopción en equipos grandes y mantener control sobre versiones. Hablaremos de debt tracking, ownership y señales de cuándo escalar (y cuándo no)."
         }
       },
       "four": {
         "caption": {
           "$type": "text",
-          "$value": "Leyenda de tarjeta cuatro"
+          "$value": "Diseñar para todos es parte del sistema, no un añadido"
         },
         "title": {
           "$type": "text",
-          "$value": "Título de tarjeta cuatro"
+          "$value": "Accesibilidad desde el sistema"
         },
         "description": {
           "$type": "text",
-          "$value": "Descripción de tarjeta cuatro"
+          "$value": "Verás cómo integrar accesibilidad desde los cimientos: contraste, estados de foco, navegación por teclado, roles ARIA, feedback visual y auditivo. Pero también accesibilidad cognitiva: claridad, legibilidad, reducción de carga mental. No es una checklist, es un estándar de calidad."
         }
       },
       "five": {
         "caption": {
           "$type": "text",
-          "$value": "Leyenda de tarjeta cinco"
+          "$value": "Explica menos, muestra mejor"
         },
         "title": {
           "$type": "text",
-          "$value": "Título de tarjeta cinco"
+          "$value": "Documentación viva"
         },
         "description": {
           "$type": "text",
-          "$value": "Descripción de tarjeta cinco"
+          "$value": "Aprenderás a documentar de forma que las personas realmente usen el sistema. Estructura, tono, lenguaje visual y herramientas —desde Figma hasta doc sites—. Cómo crear ejemplos que enseñan por sí mismos y documentar el “por qué”, no solo el “cómo”."
         }
       },
       "six": {
         "caption": {
           "$type": "text",
-          "$value": "Leyenda de tarjeta seis"
+          "$value": "El sistema como producto en sí mismo"
         },
         "title": {
           "$type": "text",
-          "$value": "Título de tarjeta seis"
+          "$value": "Gestión y evolución"
         },
         "description": {
           "$type": "text",
-          "$value": "Descripción de tarjeta seis"
-        }
-      },
-      "seven": {
-        "caption": {
-          "$type": "text",
-          "$value": "Leyenda de tarjeta siete"
-        },
-        "title": {
-          "$type": "text",
-          "$value": "Título de tarjeta siete"
-        },
-        "description": {
-          "$type": "text",
-          "$value": "Descripción de tarjeta siete"
-        }
-      },
-      "eight": {
-        "caption": {
-          "$type": "text",
-          "$value": "Leyenda de tarjeta ocho"
-        },
-        "title": {
-          "$type": "text",
-          "$value": "Título de tarjeta ocho"
-        },
-        "description": {
-          "$type": "text",
-          "$value": "Descripción de tarjeta ocho"
-        }
-      },
-      "nine": {
-        "caption": {
-          "$type": "text",
-          "$value": "Leyenda de tarjeta nueve"
-        },
-        "title": {
-          "$type": "text",
-          "$value": "Título de tarjeta nueve"
-        },
-        "description": {
-          "$type": "text",
-          "$value": "Descripción de tarjeta nueve"
-        }
-      },
-      "ten": {
-        "caption": {
-          "$type": "text",
-          "$value": "Leyenda de tarjeta diez"
-        },
-        "title": {
-          "$type": "text",
-          "$value": "Título de tarjeta diez"
-        },
-        "description": {
-          "$type": "text",
-          "$value": "Descripción de tarjeta diez"
+          "$value": "Un buen sistema se mantiene como cualquier otro producto: con métricas, roadmap y mantenimiento constante. Verás cómo organizar roles, gobernanza y procesos de contribución para mantener la calidad, incluso cuando el equipo cambia."
         }
       }
     }
@@ -219,32 +171,26 @@
     "one": {
       "name": {
         "$type": "text",
-        "$value": "Nombre uno"
+        "$value": "Elisa Casto"
       },
       "position": {
         "$type": "text",
-        "$value": "Cargo uno"
-      }
-    },
-    "two": {
-      "name": {
-        "$type": "text",
-        "$value": "Nombre dos"
+        "$value": "Diseñadora de sistemas UI y fundadora de ui_solate"
       },
-      "position": {
+      "description": {
         "$type": "text",
-        "$value": "Cargo dos"
+        "$value": "Ha desarrollado librerías escalables y accesibles aplicadas en entornos de producto reales."
       }
     },
     "title": {
       "$type": "text",
-      "$value": "Título de profesores"
+      "$value": "Aprende con quien lo aplica a diario"
     }
   },
   "pricing": {
     "title": {
       "$type": "text",
-      "$value": "Título de precios"
+      "$value": "Elige tu modalidad"
     },
     "card": {
       "one": {
@@ -254,19 +200,19 @@
         },
         "title": {
           "$type": "text",
-          "$value": "Título tarjeta uno"
+          "$value": "Equipo / empresa"
         },
         "price": {
           "$type": "text",
-          "$value": "Precio"
+          "$value": "290€"
         },
         "description": {
           "$type": "text",
-          "$value": "Descripción tarjeta uno"
+          "$value": "Formación adaptada para equipos. Solicita una propuesta personalizada."
         },
         "button": {
           "$type": "text",
-          "$value": "Botón tarjeta uno"
+          "$value": "Contactar"
         }
       },
       "two": {
@@ -276,23 +222,19 @@
         },
         "title": {
           "$type": "text",
-          "$value": "Título tarjeta dos"
+          "$value": "Modalidad pro"
         },
         "price-primary": {
           "$type": "text",
-          "$value": "Precio principal"
-        },
-        "price-secondary": {
-          "$type": "text",
-          "$value": "Precio secundario"
+          "$value": "390 €"
         },
         "description": {
           "$type": "text",
-          "$value": "Descripción tarjeta dos"
+          "$value": "Incluye mentoría individual, revisión de tu Design System y acceso prioritario a futuras actualizaciones."
         },
         "button": {
           "$type": "text",
-          "$value": "Botón tarjeta dos"
+          "$value": "Reservar plaza"
         }
       },
       "three": {
@@ -302,15 +244,19 @@
         },
         "title": {
           "$type": "text",
-          "$value": "Título tarjeta tres"
+          "$value": "Equipo / empresa"
         },
         "description": {
           "$type": "text",
-          "$value": "Descripción tarjeta tres"
+          "$value": "Formación adaptada para equipos. Solicita una propuesta personalizada."
+        },
+        "price": {
+          "$type": "text",
+          "$value": "A medida"
         },
         "button": {
           "$type": "text",
-          "$value": "Botón tarjeta tres"
+          "$value": "Contactar"
         }
       }
     }
@@ -318,79 +264,83 @@
   "video": {
     "title": {
       "$type": "text",
-      "$value": "Título del video"
+      "$value": "Una mirada al curso"
+    },
+    "subtitle": {
+      "$type": "text",
+      "$value": "Conoce la metodología y cómo aplicaremos cada módulo a tu caso real."
     }
   },
   "faqs": {
     "one": {
       "title": {
         "$type": "text",
-        "$value": "Título uno"
+        "$value": "¿Necesito experiencia previa?"
       },
       "description": {
         "$type": "text",
-        "$value": "Descripción uno"
+        "$value": "Se recomienda tener nociones básicas de Figma y diseño de interfaz, pero no es necesario haber trabajado con Design Systems antes."
       }
     },
     "two": {
       "title": {
         "$type": "text",
-        "$value": "Título dos"
+        "$value": "¿El curso es en directo o grabado?"
       },
       "description": {
         "$type": "text",
-        "$value": "Descripción dos"
+        "$value": "Sesiones en directo y material grabado disponible para repasar cuando quieras."
       }
     },
     "three": {
       "title": {
         "$type": "text",
-        "$value": "Título tres"
+        "$value": "¿Obtengo certificado?"
       },
       "description": {
         "$type": "text",
-        "$value": "Descripción tres"
+        "$value": "Sí, recibirás un certificado acreditado por ui_solate al completar todos los módulos."
       }
     },
     "four": {
       "title": {
         "$type": "text",
-        "$value": "Título cuatro"
+        "$value": "¿Puedo acceder más adelante al contenido?"
       },
       "description": {
         "$type": "text",
-        "$value": "Descripción cuatro"
+        "$value": "Sí, tendrás acceso durante 12 meses a todo el material y futuras actualizaciones."
       }
     },
     "five": {
       "title": {
         "$type": "text",
-        "$value": "Título cinco"
+        "$value": "¿Hay soporte durante el curso?"
       },
       "description": {
         "$type": "text",
-        "$value": "Descripción cinco"
+        "$value": "Sí, dispondrás de un canal privado para dudas, feedback y acompañamiento."
       }
     },
     "six": {
       "title": {
         "$type": "text",
-        "$value": "Título seis"
+        "$value": "¿Puedo pagar en dos partes?"
       },
       "description": {
         "$type": "text",
-        "$value": "Descripción seis"
+        "$value": "Sí, se puede fraccionar el pago al inscribirte."
       }
     },
     "title": {
       "$type": "text",
-      "$value": "Título de preguntas frecuentes"
+      "$value": "Preguntas frecuentes"
     }
   },
   "footer": {
     "copyright": {
       "$type": "text",
-      "$value": "Copyright © 2025. Todos los derechos reservados."
+      "$value": "© 2025 ui_solate — Todos los derechos reservados."
     },
     "language": {
       "$type": "text",

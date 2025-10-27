@@ -44,6 +44,10 @@
       "border": {
         "primary": {
           "$type": "color",
+          "$value": "{color.palette.white}"
+        },
+        "secondary": {
+          "$type": "color",
           "$value": "{color.palette.mono.300}"
         },
         "accent": {
@@ -89,13 +93,17 @@
           }
         },
         "secondary": {
-          "hover": {
+          "default": {
             "$type": "color",
             "$value": "{color.palette.white}"
           },
-          "active": {
+          "hover": {
             "$type": "color",
             "$value": "{color.palette.accent.200}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{color.palette.accent.300}"
           }
         }
       },
