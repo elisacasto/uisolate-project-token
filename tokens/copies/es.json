@@ -200,7 +200,7 @@
         },
         "title": {
           "$type": "text",
-          "$value": "Equipo / empresa"
+          "$value": "Modalidad base"
         },
         "price": {
           "$type": "text",
@@ -208,11 +208,11 @@
         },
         "description": {
           "$type": "text",
-          "$value": "Formación adaptada para equipos. Solicita una propuesta personalizada."
+          "$value": "Acceso completo al curso y materiales descargables."
         },
         "button": {
           "$type": "text",
-          "$value": "Contactar"
+          "$value": "Inscribirme"
         }
       },
       "two": {
@@ -225,6 +225,10 @@
           "$value": "Modalidad pro"
         },
         "price-primary": {
+          "$type": "text",
+          "$value": "450 €"
+        },
+        "price-secondary": {
           "$type": "text",
           "$value": "390 €"
         },

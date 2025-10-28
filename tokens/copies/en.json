@@ -196,7 +196,7 @@
         },
         "title": {
           "$type": "text",
-          "$value": "Team / company"
+          "$value": "Basic mode"
         },
         "price": {
           "$type": "text",
@@ -204,11 +204,11 @@
         },
         "description": {
           "$type": "text",
-          "$value": "Formación adaptada para equipos. Solicita una propuesta personalizada."
+          "$value": "Full access to the course and downloadable materials."
         },
         "button": {
           "$type": "text",
-          "$value": "Contact"
+          "$value": "Sign me up"
         }
       },
       "two": {
@@ -246,13 +246,17 @@
           "$type": "text",
           "$value": "Title card three"
         },
+        "price": {
+          "$type": "text",
+          "$value": "custom-made"
+        },
         "description": {
           "$type": "text",
-          "$value": "Description card three"
+          "$value": "Training tailored to teams. Request a personalized proposal."
         },
         "button": {
           "$type": "text",
-          "$value": "Button card three"
+          "$value": "Contact"
         }
       }
     }
@@ -260,73 +264,73 @@
   "video": {
     "title": {
       "$type": "text",
-      "$value": "Title video"
+      "$value": "A look at the course"
     }
   },
   "faqs": {
     "one": {
       "title": {
         "$type": "text",
-        "$value": "Title one"
+        "$value": "Do I need previous experience?"
       },
       "description": {
         "$type": "text",
-        "$value": "Description one"
+        "$value": "Basic knowledge of Figma and interface design is recommended, but previous experience with Design Systems is not required."
       }
     },
     "two": {
       "title": {
         "$type": "text",
-        "$value": "Title two"
+        "$value": "Is the course live or recorded?"
       },
       "description": {
         "$type": "text",
-        "$value": "Description two"
+        "$value": "Live sessions and recorded material available to review whenever you want."
       }
     },
     "three": {
       "title": {
         "$type": "text",
-        "$value": "Title three"
+        "$value": "Will I receive a certificate?"
       },
       "description": {
         "$type": "text",
-        "$value": "Description three"
+        "$value": "Yes, you will receive a certificate accredited by ui_solate upon completing all modules."
       }
     },
     "four": {
       "title": {
         "$type": "text",
-        "$value": "Title four"
+        "$value": "Can I access the content later?"
       },
       "description": {
         "$type": "text",
-        "$value": "Description four"
+        "$value": "Yes, you will have access to all the material and future updates for 12 months."
       }
     },
     "five": {
       "title": {
         "$type": "text",
-        "$value": "Title five"
+        "$value": "Is there support during the course?"
       },
       "description": {
         "$type": "text",
-        "$value": "Description five"
+        "$value": "Yes, you will have a private channel for questions, feedback, and support."
       }
     },
     "six": {
       "title": {
         "$type": "text",
-        "$value": "Title six"
+        "$value": "Can I pay in two installments?"
       },
       "description": {
         "$type": "text",
-        "$value": "Description six"
+        "$value": "Yes, you can split the payment when you register."
       }
     },
     "title": {
       "$type": "text",
-      "$value": "Title FAQs"
+      "$value": "Frequently asked questions"
     }
   },
   "footer": {
