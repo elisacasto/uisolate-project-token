@@ -176,10 +176,6 @@
       "position": {
         "$type": "text",
         "$value": "Diseñadora de sistemas UI y fundadora de ui_solate"
-      },
-      "description": {
-        "$type": "text",
-        "$value": "Ha desarrollado librerías escalables y accesibles aplicadas en entornos de producto reales."
       }
     },
     "title": {
@@ -250,13 +246,13 @@
           "$type": "text",
           "$value": "Equipo / empresa"
         },
-        "description": {
-          "$type": "text",
-          "$value": "Formación adaptada para equipos. Solicita una propuesta personalizada."
-        },
         "price": {
           "$type": "text",
           "$value": "A medida"
+        },
+        "description": {
+          "$type": "text",
+          "$value": "Formación adaptada para equipos. Solicita una propuesta personalizada."
         },
         "button": {
           "$type": "text",

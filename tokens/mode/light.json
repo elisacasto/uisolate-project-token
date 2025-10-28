@@ -95,15 +95,15 @@
         "secondary": {
           "default": {
             "$type": "color",
-            "$value": "{color.palette.white}"
+            "$value": "{color.palette.mono.100}"
           },
           "hover": {
             "$type": "color",
-            "$value": "{color.palette.accent.200}"
+            "$value": "{color.palette.mono.200}"
           },
           "active": {
             "$type": "color",
-            "$value": "{color.palette.accent.300}"
+            "$value": "{color.palette.mono.400}"
           }
         }
       },
