@@ -190,10 +190,6 @@
     },
     "card": {
       "one": {
-        "caption": {
-          "$type": "text",
-          "$value": "Caption card one"
-        },
         "title": {
           "$type": "text",
           "$value": "Basic mode"
@@ -212,10 +208,6 @@
         }
       },
       "two": {
-        "caption": {
-          "$type": "text",
-          "$value": "Caption card two"
-        },
         "title": {
           "$type": "text",
           "$value": "Pro mode"
@@ -238,10 +230,6 @@
         }
       },
       "three": {
-        "caption": {
-          "$type": "text",
-          "$value": "Caption card three"
-        },
         "title": {
           "$type": "text",
           "$value": "Team / company"

@@ -16,7 +16,7 @@
         },
         "accent": {
           "$type": "color",
-          "$value": "{color.palette.accent.600}"
+          "$value": "{color.palette.accent.500}"
         }
       },
       "background": {
@@ -81,15 +81,15 @@
         "primary": {
           "default": {
             "$type": "color",
-            "$value": "{color.core.background.accent}"
+            "$value": "{color.palette.accent.600}"
           },
           "hover": {
             "$type": "color",
-            "$value": "{color.states.background.accent-hover}"
+            "$value": "{color.palette.accent.700}"
           },
           "active": {
             "$type": "color",
-            "$value": "{color.states.background.accent-active}"
+            "$value": "{color.palette.accent.800}"
           }
         },
         "secondary": {
@@ -99,11 +99,11 @@
           },
           "hover": {
             "$type": "color",
-            "$value": "{color.states.background.accent-light-hover}"
+            "$value": "{color.palette.mono.800}"
           },
           "active": {
             "$type": "color",
-            "$value": "{color.states.background.accent-light-active}"
+            "$value": "{color.palette.mono.700}"
           }
         }
       },
@@ -112,26 +112,10 @@
           "default": {
             "$type": "color",
             "$value": "{color.palette.white}"
-          },
-          "hover": {
-            "$type": "color",
-            "$value": "{color.palette.white}"
-          },
-          "active": {
-            "$type": "color",
-            "$value": "{color.palette.white}"
           }
         },
         "secondary": {
           "default": {
-            "$type": "color",
-            "$value": "{color.palette.accent.500}"
-          },
-          "hover": {
-            "$type": "color",
-            "$value": "{color.palette.accent.500}"
-          },
-          "active": {
             "$type": "color",
             "$value": "{color.palette.accent.500}"
           }
@@ -141,7 +125,7 @@
         "primary": {
           "default": {
             "$type": "color",
-            "$value": "{color.core.background.accent}"
+            "$value": "{color.button.background.primary.default}"
           },
           "hover": {
             "$type": "color",
@@ -149,21 +133,21 @@
           },
           "active": {
             "$type": "color",
-            "$value": "{color.states.background.accent-active}"
+            "$value": "{color.button.background.primary.active}"
           }
         },
         "secondary": {
           "default": {
             "$type": "color",
-            "$value": "{color.palette.accent.500}"
+            "$value": "{color.button.background.secondary.default}"
           },
           "hover": {
             "$type": "color",
-            "$value": "{color.palette.accent.500}"
+            "$value": "{color.button.background.secondary.hover}"
           },
           "active": {
             "$type": "color",
-            "$value": "{color.palette.accent.500}"
+            "$value": "{color.button.background.secondary.active}"
           }
         }
       }
