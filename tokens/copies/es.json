@@ -359,9 +359,9 @@
         "$type": "text",
         "$value": "LinkedIn"
       },
-      "substack": {
+      "figmaCommunity": {
         "$type": "text",
-        "$value": "Substack"
+        "$value": "Figma Community"
       }
     }
   }

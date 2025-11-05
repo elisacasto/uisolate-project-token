@@ -337,15 +337,15 @@
       },
       "mail": {
         "$type": "text",
-        "$value": "mail"
+        "$value": "Mail"
       },
       "linkedin": {
         "$type": "text",
-        "$value": "Linkedin"
+        "$value": "LinkedIn"
       },
-      "substack": {
+      "figmaCommunity": {
         "$type": "text",
-        "$value": "Substack"
+        "$value": "Figma Community"
       }
     }
   }

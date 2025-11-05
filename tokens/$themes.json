@@ -74,10 +74,10 @@
       "color.button.border.secondary.default": "119d4f3f470e4b29077f94602bdd42c687124718",
       "color.button.border.secondary.hover": "7c6c98c7a26c80617b4c509352e97c0bcb9f6e8e",
       "color.button.border.secondary.active": "8d2245feac3e2f8113e5bdf6e25147f0baf85164",
-      "color.button.content.primary.hover": "2007a546faf5f6175fb7eec85b6c164d6a663072",
-      "color.button.content.primary.active": "7570b32d64fba26da487e42bc07bf7494401a572",
-      "color.button.content.secondary.hover": "f7b862cb87c60724fc9cd81fe7a2c919c655a1ee",
-      "color.button.content.secondary.active": "7589324aca5c2337bef1acf5ff9af49570e035db"
+      "color.button.content.primary.hover": "d24b34c57a179956d895475d844e93aac8f53276",
+      "color.button.content.primary.active": "65074fa03e77b8a8043950d6124085b1e8d372cf",
+      "color.button.content.secondary.hover": "113a3ae3944789ba4b29caa00085ecde34e9720b",
+      "color.button.content.secondary.active": "0e827ae085172c8a6e1eb8afc33392c215ab2d9d"
     },
     "group": "mode"
   },
@@ -550,13 +550,13 @@
       "footer.link.privacy": "ec5b488211771d743ca65350a1399b24847bb3fe",
       "footer.link.mail": "5df931e62c64711257bdbba8c4ccb7c9201fbeba",
       "footer.link.linkedin": "72913651a1be2841dffca76fbe20666da6c2dc15",
-      "footer.link.substack": "9ac528c303a0987e858260a4a967610bbc53fa35",
+      "footer.link.figmaCommunity": "9ac528c303a0987e858260a4a967610bbc53fa35",
       "hero.tag": "f5d083769a10d554264526031b30604ebfb01763",
       "sessions.tag.six": "a271e63368cf4929c6d375c35a2970d16cfb1b94",
-      "pricing.card.one.caption": "59c2d87c34d2dedd06814ba322796690e5a33fd3",
-      "pricing.card.two.caption": "1cac13620968061186654ff68604e05320509dd0",
-      "pricing.card.three.caption": "8437ed1d3410ad863068ea0b31237772170a28ff",
-      "video.subtitle": "2b9ac71df6baefebf04e49999cc63bd202eb2a8f"
+      "pricing.card.one.caption": "d018ae46ec855515cebd3f3e0532f543c47e4588",
+      "pricing.card.two.caption": "d89500b3d25dc670e49466df4fa26802311cca08",
+      "pricing.card.three.caption": "555355565d67b461e0ddb6945580cc2aaf375c9f",
+      "video.subtitle": "8673de4c16276f2ffdfd01d7334d736a7c21e911"
     },
     "$figmaCollectionId": "VariableCollectionId:2275:2364",
     "$figmaModeId": "2275:0"
@@ -639,7 +639,7 @@
       "footer.link.privacy": "ec5b488211771d743ca65350a1399b24847bb3fe",
       "footer.link.mail": "5df931e62c64711257bdbba8c4ccb7c9201fbeba",
       "footer.link.linkedin": "72913651a1be2841dffca76fbe20666da6c2dc15",
-      "footer.link.substack": "9ac528c303a0987e858260a4a967610bbc53fa35",
+      "footer.link.figmaCommunity": "9ac528c303a0987e858260a4a967610bbc53fa35",
       "hero.tag": "f5d083769a10d554264526031b30604ebfb01763",
       "sessions.tag.six": "a271e63368cf4929c6d375c35a2970d16cfb1b94"
     },
