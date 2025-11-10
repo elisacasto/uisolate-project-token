@@ -39,7 +39,8 @@
     },
     "selectedTokenSets": {
       "palette": "source",
-      "mode/light": "enabled"
+      "mode/light": "enabled",
+      "global": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:3:384",
     "$figmaModeId": "3:0",
