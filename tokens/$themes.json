@@ -180,7 +180,8 @@
     },
     "selectedTokenSets": {
       "palette": "source",
-      "mode/dark": "enabled"
+      "mode/dark": "enabled",
+      "global": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:3:384",
     "$figmaModeId": "3:1",
