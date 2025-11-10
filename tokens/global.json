@@ -251,12 +251,6 @@
       "$value": "{dimension.x050}"
     }
   },
-  "textDecoration": {
-    "underline": {
-      "$type": "textDecoration",
-      "$value": "underline"
-    }
-  },
   "letterSpacing": {
     "default": {
       "$type": "letterSpacing",
@@ -344,6 +338,12 @@
         "width": "{borderWidth.medium}",
         "style": "solid"
       }
+    }
+  },
+  "textDecoration": {
+    "underline": {
+      "$type": "textDecoration",
+      "$value": "underline"
     }
   }
 }
