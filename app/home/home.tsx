@@ -135,7 +135,7 @@ export default ({ texts } : { texts: Record<string, Record<string, any>>}) => (
               <div className="columns prices">
                   <div className="column newsletter">
                       <div className="dst-dotted-container pricing-container pricing-dotted-container secondary">
-                          <div className="info">{texts.pricing.card.one.caption}</div>
+                          
                           <div className="title"><h3>{texts.pricing.card.one.title}</h3></div>
                           <h2 className="price-primary">{texts.pricing.card.one.price}</h2>
                           <div className="reasons">{texts.pricing.card.one.description}</div>
@@ -146,7 +146,7 @@ export default ({ texts } : { texts: Record<string, Record<string, any>>}) => (
                   </div>
                   <div className="column course">
                       <div className="dst-dotted-container pricing-container pricing-dotted-container-salient secondary">
-                          <div className="info">{texts.pricing.card.two.caption}</div>
+                          
                           <div className="title"><h3>{texts.pricing.card.two.title}</h3></div>
                           <div className="price">
                               <h2 className="price-primary">{texts.pricing.card.two['price-primary']}</h2>
@@ -160,7 +160,7 @@ export default ({ texts } : { texts: Record<string, Record<string, any>>}) => (
                   </div>
                   <div className="column consultory">
                       <div className="dst-dotted-container secondary pricing-container pricing-dotted-container">
-                          <div className="info">{texts.pricing.card.three.caption}</div>
+                          
                           <div className="title"><h3>{texts.pricing.card.three.title}</h3></div>
                           <div className="reasons">{texts.pricing.card.three.description}</div>
                           <div className="button">
