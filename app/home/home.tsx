@@ -62,7 +62,7 @@ export default ({ texts } : { texts: Record<string, Record<string, any>>}) => (
           <div className="container other-companies-container layout-bg">
               <div className="columns is-flex is-align-items-center is-justify-content-center">
                   <div className="column is-full h2 has-text-centered">
-                      <h2>{texts.logos.title}</h2>
+                      <h2 className="h2-inverse">{texts.logos.title}</h2>
                   </div>
               </div>
               <div className="company-logos is-flex is-align-items-center">
@@ -107,45 +107,18 @@ export default ({ texts } : { texts: Record<string, Record<string, any>>}) => (
           <div className="container info-container is-align-items-center is-justify-content-center pa-40">
               <div className="columns">
                   <div className="column has-text-centered">
-                      <h2>{texts.teachers.title}</h2>
+                      <h2 className="h2-inverse">{texts.teachers.title}</h2>
                   </div>
               </div>
               <div className="columns teachers is-justify-content-center">
                   <div className="column is-two-fifths">
-                      <div className="teacher-box is-hidden-mobile">
-                          <div className="avatar pfer"></div>
+                      <div className="teacher-box ">
+                          <div className="avatar pperi"></div>
                           <div>
                               <div className="name">{texts.teachers.one.name}</div>
                               <div className="job-title">{texts.teachers.one.position}</div>
                           </div>
-                          <a href="https://www.linkedin.com/in/pffranco/" target="_blank" className="cta"></a>
-                      </div>
-                      <div className="teacher-box is-hidden-desktop">
-                          <div className="avatar pfer"></div>
-                          <div>
-                              <div className="name">Pablo F.</div>
-                              <div className="job-title">SP Engineer</div>
-                          </div>
-                          <a href="https://www.linkedin.com/in/pffranco/" target="_blank" className="cta"></a>
-                      </div>
-                  </div>
-                  <div className="column is-two-fifths">
-                      <div className="teacher-box is-hidden-mobile">
-                          <div className="avatar pperi"></div>
-                          <div>
-                              <div className="name">{texts.teachers.two.name}</div>
-                              <div className="job-title">{texts.teachers.two.position}</div>
-                          </div>
-                          <a href="https://www.linkedin.com/in/pabloperibañez/" target="_blank" className="cta"></a>
-                      </div>
-
-                      <div className="teacher-box is-hidden-desktop">
-                          <div className="avatar pperi"></div>
-                          <div>
-                              <div className="name">Pablo P.</div>
-                              <div className="job-title">Design Systems</div>
-                          </div>
-                          <a href="https://www.linkedin.com/in/pabloperibañez/" target="_blank" className="cta"></a>
+                          <a href="https://www.linkedin.com/in/elisa-casto-uiuxdesigner" target="_blank" className="cta"></a>
                       </div>
                   </div>
               </div>

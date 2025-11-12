@@ -14455,7 +14455,7 @@ a.has-background-danger:active,button.has-background-danger:active,has-backgroun
 }
 
 @media screen and (max-width: 768px) {
-    .is-display-none-mobile,.is-hidden-mobile {
+    .is-display-none-mobile {
         display:none!important
     }
 }
@@ -14629,7 +14629,7 @@ h3 {
 p {
     color: var(--color-core-content-secondary);
     font-size: var(--font-body-m-default-font-size);
-    font-weight: var(--font-body-l-default-font-weight);
+    font-weight: var(--font-body-l-strong-font-weight);
     letter-spacing: var(--font-body-l-default-letter-spacing);
     line-height: var(--font-body-l-default-line-height)
 }
@@ -14658,9 +14658,10 @@ p {
 
 .reasons {
     font-size: var(--font-body-m-default-font-size);
-    font-weight: var(--font-body-m-default-font-weight);
+    font-weight: var(--font-body-m-strong-font-weight);
     letter-spacing: var(--font-body-m-default-letter-spacing);
-    line-height: var(--font-body-m-default-line-height)
+    line-height: var(--font-body-m-default-line-height);
+    color: var(--color-core-content-secondary)
 }
 
 .price {
@@ -14771,7 +14772,7 @@ p {
 }
 
 .learning-container {
-    min-height: 45rem;
+    min-height: 40rem;
     padding-top: 100px
 }
 
@@ -14782,15 +14783,29 @@ p {
 .other-companies-container {
     border-radius: 2.5rem;
     min-height: 30.25rem;
-    background: var(--color-core-background-accent)
+    background: var(--color-core-background-accent);
+    color: var(--color-core-content-inverse)
+}
+@media (max-width: 48rem) {
+    .other-companies-container {
+        min-height: 52.25rem;
+    }
 }
 
-.other-companies-container .h2 {
+.other-companies-container .h2-inverse {
     margin-top: 80px;
 }
 
+.h2-inverse {
+    color: var(--color-core-content-inverse);
+    font-size: var(--font-headline-l-font-size);
+    font-weight: var(--font-headline-l-font-weight);
+    letter-spacing: var(--font-headline-l-letter-spacing);
+    line-height: var(--font-headline-l-line-height)
+}
+
 .logos-galaxy {
-    height: 350px;
+    height: 500px;
     background: var(--assets-intro-right) no-repeat;
     background-size: contain
 }
@@ -14885,6 +14900,7 @@ p {
 .dst-badges {
     display: flex;
     align-items: flex-start;
+    margin-top: 2rem;
     align-content: flex-start;
     gap: .5rem .5rem;
     align-self: stretch;
@@ -14940,7 +14956,7 @@ p {
     margin-top: 1.5rem;
     color: var(--color-core-content-secondary);
     font-size: var(--font-body-m-default-font-size);
-    font-weight: var(--font-body-m-default-font-weight);
+    font-weight: var(--font-body-m-strong-font-weight);
     letter-spacing: var(--font-body-m-default-letter-spacing);
     line-height: var(--font-body-m-default-line-height)
 }
@@ -15016,8 +15032,8 @@ section.sessions {
     gap: .5rem;
     align-items: center;
     border-radius: 3.688rem;
-    border: 1px dashed var(--color-core-border-accent);
-    background: var(--color-core-background-surface)
+    width: max-content;
+    background: var(--color-core-background-accent-light)
 }
 
 @media (max-width: 48rem) {
@@ -15027,7 +15043,8 @@ section.sessions {
 }
 
 .teachers {
-    margin-top: 1.25rem
+    margin-top: 1.25rem,;
+    justify-items: center
 }
 
 .teacher-box .avatar {
@@ -15086,7 +15103,7 @@ section.sessions {
 }
 
 .company-logos {
-    margin-top: 72px;
+    margin: 72px 0;
     overflow-x: auto;
     white-space: nowrap;
     justify-content: center
@@ -15094,7 +15111,8 @@ section.sessions {
 
 @media (max-width: 48rem) {
     .company-logos {
-        flex-direction:column
+        flex-direction:column;
+        margin-bottom: 72px;
     }
 }
 
