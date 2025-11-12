@@ -8,15 +8,25 @@ register(StyleDictionary, {
   withSDBuiltins: false,
 });
 
+StyleDictionary.registerTransform({
+  name: "assets/background",
+  type: "value",
+  filter: (token) => token.$type === "asset",
+  transform: (token) => `url("/app/assets/${token.$value}")`,
+})
+
 const loader = ThemesLoader(StyleDictionary);
 
 async function run() {
   const themes = await loader.load("/tokens")
 
-  themes.print ();
+ // themes.print ();
 
   const globalTheme = themes.getThemeByName("global")
   const lightTheme = themes.getThemeByName("light")
+  const darkTheme = themes.getThemeByName("dark")
+  const mobileTheme = themes.getThemeByName("mobile")
+  const desktopTheme = themes.getThemeByName("desktop")
 
   const globalConfig = {
     expand: {
@@ -35,7 +45,7 @@ async function run() {
           "ts/resolveMath",
           "size/pxToRem",
           "ts/typography/fontWeight",
-          "ts/size/lineheight"
+          "ts/size/lineheight",
         ]
       }
     }
@@ -48,19 +58,52 @@ async function run() {
           {
             format: "css/variables",
             destination: "app/build/light/variables.css",
+            options: {
+              selector: ".light"
+            }
           }
         ],
         transforms:[
          "name/kebab",
+         "ts/resolveMath",
+          "size/pxToRem",
+          "ts/typography/fontWeight",
+          "ts/size/lineheight",
+          "shadow/css/shorthand",
+          "assets/background"
+        ]
+      },
+    }
+  }
+
+  const darkConfig = {
+    platforms: {
+      web: {
+        files: [
+          {
+            format: "css/variables",
+            destination: "app/build/dark/variables.css",
+            options: {
+              selector: ".dark"
+            }
+          }
+        ],
+        transforms:[
+         "name/kebab",
+         "ts/resolveMath",
+          "size/pxToRem",
+          "ts/typography/fontWeight",
+          "ts/size/lineheight",
+          "shadow/css/shorthand",
         ]
       },
     }
   }
 
 
-
   globalTheme.addConfig(globalConfig).build(),
   lightTheme.addConfig(lightConfig).build()
+  darkTheme.addConfig(darkConfig).build()
 
 
 

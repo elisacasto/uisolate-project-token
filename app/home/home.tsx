@@ -86,7 +86,7 @@ export default ({ texts } : { texts: Record<string, Record<string, any>>}) => (
           <div className="container sessions-container">
               <div className="columns">
                   <div className="column is-two-fifths">
-                      <h2>{texts.sessions.title}</h2>
+                      <h1>{texts.sessions.title}</h1>
 
                       <div className="dst-badges">
                           <div className="dst-badge primary">{texts.sessions.tag.one}</div>
@@ -100,7 +100,7 @@ export default ({ texts } : { texts: Record<string, Record<string, any>>}) => (
                     {Object.values(texts.sessions.card).map((props, index) => <Session {...props} key={`session-${index}`} />)}
                   </div>
               </div>
-          </div>
+          </div> 
       </section>
 
       <section className="section meet-the-teachers">

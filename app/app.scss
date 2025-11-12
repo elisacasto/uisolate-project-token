@@ -3,8 +3,8 @@
 @use "../node_modules/bulma/sass/layout";
 @use "../node_modules/bulma/sass/helpers";
 // descomentar cuando se generen las variables de colores
-// @import "./build/dark/variables.css";
- @import "./build/light/variables.css";
+@import "./build/dark/variables.css";
+@import "./build/light/variables.css";
 
 
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
@@ -14571,7 +14571,7 @@ a.has-background-danger:active,button.has-background-danger:active,has-backgroun
 }
 
 .is-shadowless {
-    box-shadow: none!important
+  box-shadow: var(--box-shadow-md) !important
 }
 
 .is-clickable {
@@ -14627,7 +14627,7 @@ h3 {
 }
 
 p {
-    color: var(--color-core-content-primary);
+    color: var(--color-core-content-secondary);
     font-size: var(--font-body-l-default-font-size);
     font-weight: var(--font-body-l-default-font-weight);
     letter-spacing: var(--font-body-l-default-letter-spacing);
@@ -14766,8 +14766,11 @@ p {
 }
 
 .dst-dotted-container.secondary {
-    background: var(--color-core-background-secondary);
-    border-color: var(--color-core-border-accent)
+    background: var(--color-core-background-surface);
+    border-radius: var(--border-radius-medium);
+    border: var(--border-solid-width) var(--border-solid-style) var(--color-core-border-primary);
+    background: var(--color-core-background-surface);
+    box-shadow: var(--box-shadow-md);
 }
 
 .learning-container {
@@ -14780,12 +14783,13 @@ p {
 }
 
 .other-companies-container {
+    border-radius: 2.5rem;
     min-height: 30.25rem;
-    background: var(--color-core-background-secondary)
+    background: var(--color-core-background-accent)
 }
 
 .other-companies-container .h2 {
-    margin-top: 80px
+    margin-top: 80px;
 }
 
 .logos-galaxy {
@@ -14900,12 +14904,12 @@ p {
     font-weight: var(--font-caption-m-uppercase-font-weight);
     letter-spacing: var(--font-caption-m-uppercase-letter-spacing);
     line-height: var(--font-caption-m-uppercase-line-height);
-    text-transform: var(--font-caption-m-uppercase-text-case)
+    text-transform: var(--font-caption-m-uppercase-text-case);
 }
 
 .dst-badge.primary {
     background: var(--color-core-background-accent-light);
-    color: var(--color-core-content-accent)
+    color: var(--color-core-content-accent);
 }
 
 .dst-session {
@@ -14916,7 +14920,8 @@ p {
     align-self: stretch;
     border-radius: var(--border-radius-medium);
     border: var(--border-solid-width) var(--border-solid-style) var(--color-core-border-primary);
-    background: var(--color-core-background-surface)
+    background: var(--color-core-background-surface);
+    box-shadow: var(--box-shadow-md);
 }
 
 @media (max-width: 48rem) {
@@ -14936,7 +14941,7 @@ p {
 
 .dst-session .content {
     margin-top: 1.5rem;
-    color: var(--color-core-content-primary);
+    color: var(--color-core-content-secondary);
     font-size: var(--font-body-m-default-font-size);
     font-weight: var(--font-body-m-default-font-weight);
     letter-spacing: var(--font-body-m-default-letter-spacing);
@@ -14950,12 +14955,12 @@ p {
 }
 
 section.sessions {
-    background: var(--color-core-background-primary)
+    background: var(--color-core-background-surface)
 }
 
 .info-container {
     border-radius: 2.5rem;
-    background: var(--color-core-background-secondary);
+    background: var(--color-core-background-accent);
     min-height: 19.31rem
 }
 
