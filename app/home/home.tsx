@@ -164,7 +164,7 @@ export default ({ texts } : { texts: Record<string, Record<string, any>>}) => (
                           <div className="title"><h3>{texts.pricing.card.three.title}</h3></div>
                           <div className="reasons">{texts.pricing.card.three.description}</div>
                           <div className="button">
-                              <a href="mailto:hola@designtokens.es" className="dst-button secondary">{texts.pricing.card.three.button}</a>
+                              <a href="mailto:castoelisa8@gmail.com" className="dst-button secondary">{texts.pricing.card.three.button}</a>
                           </div>
                       </div>
                   </div>
