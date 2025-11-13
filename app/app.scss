@@ -14769,6 +14769,7 @@ p {
     border-radius: var(--border-radius-medium);
     border: var(--border-solid-width) var(--border-solid-style) var(--color-core-border-primary);
     background: var(--color-core-background-surface);
+    box-shadow: var(--box-shadow-md);
 }
 
 .learning-container {
@@ -14949,7 +14950,8 @@ p {
     font-weight: var(--font-caption-m-uppercase-font-weight);
     letter-spacing: var(--font-caption-m-uppercase-letter-spacing);
     line-height: var(--font-caption-m-uppercase-line-height);
-    text-transform: var(--font-caption-m-uppercase-text-case)
+    text-transform: var(--font-caption-m-uppercase-text-case);
+    margin-bottom: var(--dimension-x400);
 }
 
 .dst-session .content {
@@ -15065,7 +15067,7 @@ section.sessions {
 .teacher-box .job-title {
     color: var(--color-core-content-secondary);
     font-size: var(--font-caption-m-default-font-size);
-    font-weight: var(--font-caption-m-default-font-weight);
+    font-weight: var(--font-caption-m-strong-font-weight);
     letter-spacing: var(--font-caption-m-default-letter-spacing);
     line-height: var(--font-caption-m-default-line-height)
 }
@@ -15122,7 +15124,7 @@ section.sessions {
     text-align: center;
     width: 176px;
     height: 88px;
-    cursor: pointer
+    pointer-events: none;
 }
 
 .atlassian {

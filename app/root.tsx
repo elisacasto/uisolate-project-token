@@ -93,7 +93,7 @@ export function Layout({ actionData = { theme: 'light ' } }: Route.ComponentProp
         <link rel="stylesheet" href={appStylesHref} />
         <Links />
         <title>ui_solate</title>
-        <link rel="icon" href="/app/assets/favicon.svg" type="image/svg+xml" />
+        
       </head>
       <body className={!data ? actionData.theme : data.theme}>
         <nav className="navbar dst-navbar">

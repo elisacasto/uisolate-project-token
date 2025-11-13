@@ -9,6 +9,8 @@ register(StyleDictionary, {
   withSDBuiltins: false,
 });
 
+console.log();
+
 StyleDictionary.registerTransform({
   name: "assets/background",
   type: "value",
@@ -117,7 +119,6 @@ const mobileConfig = {
           "size/pxToRem",
           "ts/typography/fontWeight",
           "ts/size/lineheight",
-          "shadow/css/shorthand",
           "assets/background"
         ]
       },
@@ -142,7 +143,6 @@ const mobileConfig = {
           "size/pxToRem",
           "ts/typography/fontWeight",
           "ts/size/lineheight",
-          "shadow/css/shorthand",
           "assets/background"
         ]
       },
