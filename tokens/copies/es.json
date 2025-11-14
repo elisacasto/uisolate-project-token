@@ -222,11 +222,11 @@
         },
         "price-primary": {
           "$type": "text",
-          "$value": "450 €"
+          "$value": "390 €"
         },
         "price-secondary": {
           "$type": "text",
-          "$value": "390 €"
+          "$value": "450 €"
         },
         "description": {
           "$type": "text",
