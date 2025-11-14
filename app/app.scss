@@ -15034,13 +15034,12 @@ section.sessions {
     gap: .5rem;
     align-items: center;
     border-radius: 3.688rem;
-    width: max-content;
     background: var(--color-core-background-accent-light)
 }
 
 @media (max-width: 48rem) {
     .teacher-box {
-        padding:.5rem
+        padding:.5rem;
     }
 }
 
