@@ -162,6 +162,7 @@ export default ({ texts } : { texts: Record<string, Record<string, any>>}) => (
                       <div className="dst-dotted-container secondary pricing-container pricing-dotted-container">
                           
                           <div className="title"><h3>{texts.pricing.card.three.title}</h3></div>
+                          <h2 className="price-primary">{texts.pricing.card.three.price}</h2>
                           <div className="reasons">{texts.pricing.card.three.description}</div>
                           <div className="button">
                               <a href="mailto:castoelisa8@gmail.com" className="dst-button secondary">{texts.pricing.card.three.button}</a>

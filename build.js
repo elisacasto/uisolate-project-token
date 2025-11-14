@@ -151,10 +151,10 @@ const mobileConfig = {
         transforms:[
          "name/kebab",
          "ts/resolveMath",
-          "size/pxToRem",
-          "ts/typography/fontWeight",
-          "ts/size/lineheight",
-          "assets/background"
+         "size/pxToRem",
+         "ts/typography/fontWeight",
+         "ts/size/lineheight",
+         "assets/background",
         ]
       },
     }
