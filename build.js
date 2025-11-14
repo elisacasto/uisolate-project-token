@@ -30,6 +30,9 @@ async function run() {
   const darkTheme = themes.getThemeByName("dark")
   const mobileTheme = themes.getThemeByName("mobile");
   const desktopTheme = themes.getThemeByName("desktop");
+  const esTheme = themes.getThemeByName("es");
+  const enTheme = themes.getThemeByName("en");
+
 
   const globalConfig = {
     expand: {
@@ -100,6 +103,38 @@ const mobileConfig = {
     }
   }
 
+  const esConfig = {
+    platforms: {
+      web: {
+        files: [
+          {
+            format: "json/nested",
+            destination: "app/build/es/texts.json"
+          }
+        ],
+        transforms: [
+          'name/kebab'
+        ]
+      }
+    }
+  }
+
+    const enConfig = {
+    platforms: {
+      web: {
+        files: [
+          {
+            format: "json/nested",
+            destination: "app/build/en/texts.json"
+          }
+        ],
+        transforms: [
+          'name/kebab'
+        ]
+      }
+    }
+  }
+
 
  const lightConfig = {
     platforms: {
@@ -155,6 +190,8 @@ const mobileConfig = {
   darkTheme.addConfig(darkConfig).build()
   desktopTheme.addConfig(desktopConfig).build();
   mobileTheme.addConfig(mobileConfig).build();
+  esTheme.addConfig(esConfig).build();
+  enTheme.addConfig(enConfig).build();
 
 
 

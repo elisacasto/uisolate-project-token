@@ -44,14 +44,14 @@ export async function loader({ request }: Route.LoaderArgs) {
   const url = new URL(request.url);
   let texts = null;
 
-  texts = await import('./texts.json');
+  // texts = await import('./texts.json');
 
   // descomentar cuando se generen los copies
-  // if (url.pathname === '/en') {
-  //   texts = await import('./build/en/texts.json');
-  // } else {
-  //   texts = await import('./build/es/texts.json');
-  // }
+   if (url.pathname === '/en') {
+     texts = await import('./build/en/texts.json');
+   } else {
+     texts = await import('./build/es/texts.json');
+   }
 
   return { texts };
 }
@@ -112,7 +112,7 @@ export function Layout({ actionData = { theme: 'light ' } }: Route.ComponentProp
               <div className="links column is-flex">
                 <a href="mailto:hola@designtokens.es" target="_blank">{loaderData.texts.footer.link.mail} </a>
                 <a href="https://www.linkedin.com/in/elisa-casto-uiuxdesigner/" target="_blank">{loaderData.texts.footer.link.linkedin}</a>
-                <a href="https://www.figma.com/community/file/1473396231635670118/ui-library-focused-on-clarity-and-accessibility" target="_blank">{loaderData.texts.footer.link.substack}</a>
+                <a href="https://www.figma.com/community/file/1473396231635670118/ui-library-focused-on-clarity-and-accessibility" target="_blank">{loaderData.texts.footer.link.figmaCommunity}</a>
               </div>
             </div>
 
